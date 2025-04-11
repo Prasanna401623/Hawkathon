@@ -67,31 +67,12 @@ hawkathon-frontend/
 └── package.json
 ```
 
-## Google Authentication Setup
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create a new project
-3. Enable the Google+ API
-4. Create OAuth 2.0 credentials
-5. Add authorized JavaScript origins:
-   - `http://localhost:3000` (for development)
-6. Add authorized redirect URIs:
-   - `http://localhost:3000`
-   - `http://localhost:3000/callback`
-
-## Color Scheme
-- Primary Color: ULM Maroon (#660000)
-- Secondary Colors: 
-  - White (#FFFFFF)
-  - Light Gray (#F5F5F5)
-- Text Color: Dark Gray (#333333)
-
-## Contributing
-1. Create a new branch for your feature
-2. Make your changes
-3. Submit a pull request
 
 ## Team Members
-- [Add team members here]
+- Adhik Adhikari
+- Sujal Thapa
+- Prabin BK
+- Prasanna Jha
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
