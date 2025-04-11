@@ -1,0 +1,172 @@
+/* ULM Colors */
+:root {
+  --ulm-maroon: #660000;
+  --ulm-white: #FFFFFF;
+  --ulm-gray: #F5F5F5;
+  --ulm-text: #333333;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ulm-maroon);
+  background-image: linear-gradient(135deg, #660000 0%, #4d0000 100%);
+  padding: 20px;
+}
+
+.login-box {
+  background: var(--ulm-white);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 450px;
+  padding: 40px;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ulm-logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 25px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.login-header h1 {
+  color: var(--ulm-maroon);
+  font-size: 28px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: var(--ulm-text);
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.login-content {
+  margin-bottom: 30px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ddd;
+}
+
+.divider span {
+  padding: 0 10px;
+  color: var(--ulm-text);
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ulm-text);
+  font-weight: 500;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--ulm-maroon);
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ulm-text);
+}
+
+.forgot-password {
+  color: var(--ulm-maroon);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--ulm-maroon);
+  color: var(--ulm-white);
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #4d0000;
+}
+
+.login-footer {
+  text-align: center;
+  color: var(--ulm-text);
+  font-size: 14px;
+}
+
+.signup-link {
+  color: var(--ulm-maroon);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login-box {
+    padding: 20px;
+  }
+  
+  .login-header h1 {
+    font-size: 20px;
+  }
+  
+  .form-input {
+    padding: 10px;
+  }
+} 
